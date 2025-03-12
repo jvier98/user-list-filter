@@ -3,7 +3,7 @@
 Una aplicación web interactiva que muestra una lista de usuarios obtenida de una API pública, con filtrado en tiempo real y la posibilidad de ver los posts de cada usuario.
 
 ## Demo
-https://jvier98.github.io/user-list-filter/
+----
 
 ## Funcionalidades
 - **Filtrado en tiempo real**: Busca usuarios por nombre, email o compañía con un input optimizado mediante debounce.
