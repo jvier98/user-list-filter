@@ -14,4 +14,4 @@ Una aplicación web que muestra una lista de usuarios desde una API, con un filt
 1. Clona el repositorio.
 2. Abre `index.html` en un navegador.
 
-## Demo
+
