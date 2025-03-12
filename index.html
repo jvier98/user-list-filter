@@ -1,20 +1,15 @@
 <!DOCTYPE html>
 <html lang="es">
-  <head>
-    <meta charset="UTF-8">
-    <style>
-      body { font-family: Arial, sans-serif; padding: 20px; }
-      #filtro { padding: 5px; margin-bottom: 10px; width: 200px; }
-      .user-card { border: 1px solid #ccc; padding: 10px; margin: 5px 0; }
-      .user-card:hover { background-color: #f9f9f9; }
-      .posts { display: none; margin-top: 10px; }
-      .posts.visible { display: block; }
-    </style>
-  </head>
-  <body>
-    <h1>Lista de Usuarios</h1>
-    <input id="filtro" type="text" placeholder="Filtrar por nombre" oninput="filtrarUsuarios()">
-    <div id="lista"></div>
-    <script src="script.js"></script>
-  </body>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Lista de Usuarios</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <h1>Lista de Usuarios</h1>
+  <input id="filtro" type="text" placeholder="Filtrar por nombre, email o compañía">
+  <div id="lista"></div>
+  <script src="script.js"></script>
+</body>
 </html>
